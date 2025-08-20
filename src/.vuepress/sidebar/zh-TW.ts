@@ -1,9 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhtwSidebar = sidebar({
-  "/": [
-    "",
-  ],
+  "/": [],
   "/news/": "structure",
   "/about/": [
     {
@@ -16,4 +14,5 @@ export const zhtwSidebar = sidebar({
       ],
     },
   ],
+  "/join-us": [],
 });
