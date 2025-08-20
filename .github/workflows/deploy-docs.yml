@@ -49,29 +49,3 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-
-  - name: Build and Compress Artifacts
-    run: |
-      # 进入实际构建目录
-      cd src/.vuepress/dist || exit
-      
-      # 获取Git短hash和当前时间
-      HASH=$(echo $GITHUB_SHA | cut -c1-7)
-      DATE=$(date +"%Y%m%d")
-      TIME=$(date +"%H%M")
-      
-      # 创建zip和tar.gz压缩包
-      zip -r ../Souton_Website-$HASH-$DATE-$TIME.zip .
-      tar -czf ../Souton_Website-$HASH-$DATE-$TIME.tar.gz .
-    
-  - name: Create Release with Artifacts
-    uses: softprops/action-gh-release@v1
-    with:
-      # 保持原有Release命名格式
-      tag_name: "Releases ${{ env.HASH }} (${{ env.DATE }}-${{ env.TIME }})"
-      release_name: "Releases ${{ env.HASH }} (${{ env.DATE }}-${{ env.TIME }})"
-      draft: false
-      prerelease: false
-      files: |
-        ../Souton_Website-${{ env.HASH }}-${{ env.DATE }}-${{ env.TIME }}.zip
-        ../Souton_Website-${{ env.HASH }}-${{ env.DATE }}-${{ env.TIME }}.tar.gz
