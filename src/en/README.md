@@ -1,7 +1,7 @@
 ---
 home: true
 icon: house
-title: 首頁
+title: Project home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 bgImage: ./image/2024-09-20_23.42.20.png
 bgImageDark: ./image/2024-09-20_23.42.20.png
@@ -9,7 +9,7 @@ bgImageStyle:
   background-attachment: fixed
 heroFullScreen: true
 heroText: SOUTON
-tagline: 修顿项目组
+tagline: Souton Project Team
 actions:
   - text: How to Use
     icon: lightbulb

@@ -6,22 +6,82 @@ import { zhtwSidebar, zhcnSidebar, enSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://www.souton.net",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  favicon: "-",
+
+  logo: "-",
+  logoDark: "-",
 
   docsDir: "src",
 
   locales: {
     "/": {
-      navbar: enNavbar,
-      sidebar: enSidebar,
-      footer: "© 2023-2025 Souton",
-      displayFooter: true,
-    },
-    "/zh-TW/": {
       navbar: zhtwNavbar,
       sidebar: zhtwSidebar,
       footer: "© 2023-2025 Souton",
       displayFooter: true,
+      navbarLocales: {
+        langName: "繁體中文",
+        selectLangAriaLabel: "選擇語言",
+      },
+      metaLocales: {
+        author: "作者",
+        date: "寫作日期",
+        origin: "原創",
+        views: "訪問量",
+        category: "分類",
+        tag: "標籤",
+        readingTime: "閱讀時間",
+        words: "字數",
+        toc: "此頁內容",
+        prev: "上一頁",
+        next: "下一頁",
+        contributors: "貢獻者",
+        editLink: "編輯此頁",
+        print: "打印",
+      },
+      blogLocales: {
+        article: "文章",
+        articleList: "文章列表",
+        category: "分類",
+        tag: "標籤",
+        timeline: "時間軸",
+        timelineTitle: "昨日不在",
+        all: "全部",
+        intro: "個人介紹",
+        star: "星標",
+        empty: "$text 為空",
+      },
+      paginationLocales: {
+        prev: "上一頁",
+        next: "下一頁",
+        navigate: "跳轉到",
+        action: "前往",
+        errorText: "請輸入 1 到 $page 之前的頁碼！",
+      },
+      outlookLocales: {
+        themeColor: "主題色",
+        darkmode: "主題模式",
+        fullscreen: "全屏",
+      },
+
+      encryptLocales: {
+        iconLabel: "頁面已加密",
+        placeholder: "輸入密碼",
+        remember: "記憶密碼",
+        errorHint: "請輸入正確密碼",
+      },
+      routerLocales: {
+        skipToContent: "跳至主要內容",
+        notFoundTitle: "頁面不存在",
+        notFoundMsg: [
+          "這裡什麼也沒有",
+          "我們是怎麼來到這兒的？",
+          "這 是 四 零 四 !",
+          "看起来你訪問了一個失效的鏈結",
+        ],
+        back: "返回上一頁",
+        home: "帶我回家",
+      },
     },
 
     "/zh-CN/": {
@@ -31,10 +91,20 @@ export default hopeTheme({
       displayFooter: true,
     },
 
-
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
+      footer: "© 2023-2025 Souton",
+      displayFooter: true,
+    },
   },
 
-  // These features are enabled for demo, only preserve features you need here
+  navbarLayout: {
+    start: ["Brand"],
+    center: [""],
+    end: ["Links", "Language", "Repo", "Outlook", "Search"],
+  },
+
   markdown: {
     align: true,
     attrs: true,
@@ -67,47 +137,9 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-
-    // uncomment these if you need TeX support
-    // math: {
-    //   // install katex before enabling it
-    //   type: "katex",
-    //   // or install mathjax-full before enabling it
-    //   type: "mathjax",
-    // },
-
-    // install chart.js before enabling it
-    // chartjs: true,
-
-    // install echarts before enabling it
-    // echarts: true,
-
-    // install flowchart.ts before enabling it
-    // flowchart: true,
-
-    // install mermaid before enabling it
-    // mermaid: true,
-
-    // playground: {
-    //   presets: ["ts", "vue"],
-    // },
-
-    // install @vue/repl before enabling it
-    // vuePlayground: true,
-
-    // install sandpack-vue3 before enabling it
-    // sandpack: true,
-
-    // install @vuepress/plugin-revealjs and uncomment these if you need slides
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
   },
 
   plugins: {
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
-
     components: {
       components: ["Badge", "VPCard"],
     },
@@ -115,62 +147,5 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
-
-    // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cacheImage: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
   },
 });
