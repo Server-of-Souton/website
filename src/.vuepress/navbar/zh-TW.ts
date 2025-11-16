@@ -12,7 +12,9 @@ export const zhtwNavbar = navbar([
         text: "伺服器",
         icon: "server",
         prefix: "",
-        children: ["resource-pack"],
+        children: [
+          "resource-pack"
+        ],
       },
     ],
   },
@@ -20,7 +22,10 @@ export const zhtwNavbar = navbar([
     text: "關於我們",
     icon: "circle-info",
     prefix: "/about/",
-    children: ["history", "members-list"],
+    children: [
+      "history", 
+      "members-list"
+    ],
   },
   "/join-us",
 
