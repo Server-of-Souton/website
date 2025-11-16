@@ -4,12 +4,12 @@ export const zhcnNavbar = navbar([
   "/zh-CN/",
   "/zh-CN/news/",
   {
-    text: "相關協議",
+    text: "相关协议",
     icon: "material-symbols:policy",
     prefix: "/zh-CN/policy/",
     children: [
       {
-        text: "伺服器",
+        text: "服务器",
         icon: "server",
         prefix: "",
         children: [
@@ -19,7 +19,7 @@ export const zhcnNavbar = navbar([
     ],
   },
   {
-    text: "關於我們",
+    text: "关于我们",
     icon: "circle-info",
     prefix: "/zh-CN/about/",
     children: [
