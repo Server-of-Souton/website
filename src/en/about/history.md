@@ -1,17 +1,16 @@
----
-title: 歷史
+--- 
+title: History
 index: true
 icon: material-symbols:history
 ---
+## 2022-2023
+**The Predecessor of Souton**
+The predecessor of "Souton" can be traced back to mid-2022, when NQIDK created its first official archive (the predecessor of the current "Souton" map) and began the construction of railways and cities. Although the railways and cities at that time were relatively rudimentary, and had problems such as unreasonable building structures and designs, excessively high railway gradients, and excessively sharp railway curves, they laid the foundation for the current "Souton".
 
-## 2022-2023年
-**修頓的前身**
-「修頓」的前身可以追溯至2022年中，NQIDK 創建了其第一代正式存檔（即現在「修頓」地圖的前身）並開始了鐵路和城市的建設。雖然當時的鐵路和城市相對簡陋，也有諸如建築結構和設計不合理、鐵路坡率過高、鐵路彎道過急等問題，但也為了現在的「修頓」打下基礎。
+## July 2023
+**Two People, A Perfect Match**
+In mid-June 2023, "MTRBBS", the largest forum in the MTR Chinese community, held its third architecture competition (officially named "MTRBBS Third Architecture Skills Competition"). At that time, JW HK (hereinafter referred to as JW) contacted NQIDK and asked if he wanted to participate. He immediately agreed and collaborated with JW to participate. When naming the project, they were inspired by the Hong Kong MTR server "Easton," naming it "Souton Project," and won the architecture competition with a high score of 95 points thanks to its excellent construction and technology. After the competition, NQIDK went to the United States to study, and his first-generation save file and "Souton Project" were put on hold.
 
-## 2023年7月
-**兩個人，一拍即合**
-2023年6月中，MTR 中文圈最大的論壇「MTRBBS」舉辦了第三屆建築大賽（正式名稱為「MTRBBS第三届建筑技艺大赛」），當時 JW HK（下稱JW）找到 NQIDK 並詢問是否要參加，他隨即同意並與JW合作參賽。當要為項目命名時，他們則以一個香港 MTR 伺服器「Easton（依士頓）」為靈感，取名為「Souton Project（修頓項目）」，並憑藉著其優良的建築水平和技術以95高分奪得了建築大賽冠軍。大賽過後，隨著NQIDK赴美留學，他的第一代存檔和「修頓項目」隨即擱置。 
-
-## 2023年10月
-**請輸入文本**
-3個月後，NQIDK 以更換新電腦為契機，開始復刻1975年開業時的九廣英段九龍車站（現紅磡站）以練習建築技巧，並在隔月開始了第二代正式存檔的建設（即現在「修頓」的地圖存檔）。當時他為減少開支並未打算開設伺服器，此舉導致遠在香港的JW無法加入建設。為了解決這問題，NQIDK 最終還是於隔年1月開設伺服器以便JW 和他自己返港時也可以建設，重開的伺服器則延續「修頓項目」的舊名並易名為「修頓（Souton）」，NQIDK 也在隨後將伺服器擁有者的地位轉讓予JW。這時的「修頓」仍未準備對外開放。
+## October 2023
+**Please enter text**
+Three months later, taking advantage of a new computer, NQIDK began to recreate the Kowloon Station (now Hung Hom Station) of the Kowloon-Canton Railway Station (English Section) when it opened in 1975 to practice his construction skills, and began building the second-generation official save file the following month (which is now the map save file for "Souton"). At that time, he did not plan to open a server to reduce expenses, which prevented JW, who was far away in Hong Kong, from joining the construction. To resolve this issue, NQIDK eventually launched a server in January of the following year so that JW and he could also work on it when they returned to Hong Kong. The reopened server retained the old name "Project Souton" but was renamed "Souton." NQIDK subsequently transferred ownership of the server to JW. At this point, "Souton" was still not ready to be opened to the public.

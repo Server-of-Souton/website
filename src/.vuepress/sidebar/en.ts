@@ -1,9 +1,9 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
-  "/": [],
-  "/zh-CN/news/": "structure",
-  "/about/": [
+  "/en/": [],
+  "/en/news/": "structure",
+  "/en/about/": [
     {
       text: "About us",
       icon: "lightbulb",
@@ -14,5 +14,5 @@ export const enSidebar = sidebar({
       ],
     },
   ],
-  "/join-us": [],
+  "/en/join-us": [],
 });

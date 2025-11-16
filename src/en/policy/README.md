@@ -1,5 +1,5 @@
 ---
-title: 相關協議
+title: Policy
 index: true
 icon: material-symbols:policy
 ---

@@ -1,5 +1,5 @@
 ---
-title: 關於我們
+title: About Us
 index: true
 icon: material-symbols:chat-info-rounded
 ---

@@ -1,5 +1,5 @@
 ---
-title: 資訊
+title: News
 index: true
 icon: material-symbols:news
 ---
